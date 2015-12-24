@@ -7,4 +7,4 @@ echo "Starting all processes owned by $PWD ..."
 [ ! -f ./node_modules ] && npm install
 [ ! -f ./bower_components ] && bower install
 # npm install && bower install
-npm start
+forever start
